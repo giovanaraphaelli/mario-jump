@@ -112,6 +112,7 @@ footer {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 12px;
 }
 
 .ativo .modal {
@@ -121,7 +122,8 @@ footer {
 .btn {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
   color: white;
   background-color: red;
   border: none;
@@ -129,8 +131,11 @@ footer {
   padding: 1rem;
   margin-top: 20px;
   cursor: pointer;
+  transition: 0.3s;
 }
-
+.btn:hover {
+  background-color: rgb(212, 49, 49);
+}
 @keyframes modal {
   from {
     opacity: 0;
