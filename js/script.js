@@ -36,6 +36,6 @@ const loop = setInterval(() => {
 
 document.addEventListener("keydown", jump);
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", () => {
   location.reload();
 });

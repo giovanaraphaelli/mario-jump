@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Courier New", Courier, monospace;
   background-color: black;
 }
 
@@ -110,7 +111,7 @@ footer {
   border-radius: 20px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .ativo .modal {
